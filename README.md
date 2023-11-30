@@ -1,7 +1,7 @@
 # LabVIEW-Git-Setting
 ****Provide LabVIEW gitattributes and gitignore settings****
 
-For "gitattributes", add
+# For "gitattributes", add
 *.vi binary
 *.vim binary
 *.lvproj binary
@@ -16,27 +16,27 @@ For "gitattributes", add
 *.xcontrol binary
 *.rtm binary
 
-For "gitignore", add
-# Libraries
+# For "gitignore", add
+/# Libraries
 *.lvlibp
 *.llb
 
-# Shared objects (inc. Windows DLLs)
+/# Shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
 
-# Executables
+/# Executables
 *.exe
 *.rtexe
 
-# Metadata
+/# Metadata
 *.aliases
 *.lvlps
 .cache/
 
-# builds
+/# builds
 */Builds/*
 */builds/*
 Builds/*
